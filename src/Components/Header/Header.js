@@ -6,28 +6,28 @@ import './Header.css'
 
 export default function Header() {
   return (
-    <div className="header">
-      <div className="admin-profile">
-        <img src="/img/MHM.png" alt="Admin Profile" />
-        <div>
-          <h1>محمد حسام مرادیان</h1>
-          <h3>برنامه نویس فرانت اند</h3>
-        </div>
-      </div>
-
-      <div className="header-left-section">
-        <div className="search-box">
-          <input type="text" placeholder="جست و جو بکنید ..." />
-          <button>جست و جو</button>
+    <div className='header'>
+        <div className="admin-profile">
+            <img src="/img/saeedi.jpeg" alt="Admin Profile" />
+            <div>
+                <h1>محمدامین سعیدی راد</h1>
+                <h3>برنامه نویس فرانت اند</h3>
+            </div>
         </div>
 
-        <button className="header-left-icon">
-          <AiOutlineBell />
-        </button>
-        <button className="header-left-icon">
-          <BsBrightnessHigh />
-        </button>
-      </div>
+        <div className='header-left-section'>
+            <div className="search-box">
+                <input type="text" placeholder='جست و جو بکنید ...'  />
+                <button>جست و جو</button>
+            </div>
+
+            <button className='header-left-icon'>
+                <AiOutlineBell />
+            </button>
+            <button className='header-left-icon'>
+                <BsBrightnessHigh />
+            </button>
+        </div>
     </div>
-  );
+  )
 }
